@@ -2,12 +2,12 @@ Summary:	Utility for extracting Broadcom 43xx firmware
 Summary(hu.UTF-8):	Eszköz a Broadcom 43xx firmware-ek kinyerésére
 Summary(pl.UTF-8):	Narzędzie do wyciągania firmware'u dla układów Broadcom 43xx
 Name:		b43-fwcutter
-Version:	012
+Version:	014
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://bu3sch.de/b43/fwcutter/%{name}-%{version}.tar.bz2
-# Source0-md5:	69eadf67b459f313a8d6b37aaabef96c
+# Source0-md5:	dd63f9149510bd6e01b89314e955083b
 URL:		http://linuxwireless.org/en/users/Drivers/b43#devicefirmware
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,7 +30,8 @@ oraz b43legacy.
 %build
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags} -D_BSD_SOURCE"
+	CFLAGS="%{rpmcflags} -D_BSD_SOURCE" \
+	V=1
 
 %install
 rm -rf $RPM_BUILD_ROOT
