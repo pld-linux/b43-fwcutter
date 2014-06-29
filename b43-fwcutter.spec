@@ -2,12 +2,12 @@ Summary:	Utility for extracting Broadcom 43xx firmware
 Summary(hu.UTF-8):	Eszköz a Broadcom 43xx firmware-ek kinyerésére
 Summary(pl.UTF-8):	Narzędzie do wyciągania firmware'u dla układów Broadcom 43xx
 Name:		b43-fwcutter
-Version:	018
+Version:	019
 Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://bues.ch/b43/fwcutter/%{name}-%{version}.tar.bz2
-# Source0-md5:	56fcb0c64dcc94dd2672b9ff87f8217f
+# Source0-md5:	19d1f4226a625756726bdf7ed5dc2a0a
 URL:		http://wireless.kernel.org/en/users/Drivers/b43#devicefirmware
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
