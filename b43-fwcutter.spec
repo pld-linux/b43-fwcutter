@@ -3,7 +3,7 @@ Summary(hu.UTF-8):	Eszköz a Broadcom 43xx firmware-ek kinyerésére
 Summary(pl.UTF-8):	Narzędzie do wyciągania firmware'u dla układów Broadcom 43xx
 Name:		b43-fwcutter
 Version:	019
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/System
 Source0:	http://bues.ch/b43/fwcutter/%{name}-%{version}.tar.bz2
